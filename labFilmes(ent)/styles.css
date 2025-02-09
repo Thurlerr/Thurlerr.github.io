@@ -1,0 +1,49 @@
+#catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .ficha-filme {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .ficha-filme img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .ficha-filme p, .ficha-filme ul {
+    margin: 10px 0;
+  }
+  
+  .ficha-filme p {
+    font-size: 1.1em;
+  }
+  
+  .ficha-filme ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ficha-filme ul li {
+    background-color: #eaeaea;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 5px;
+  }
+  
+  .ficha-filme p {
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
